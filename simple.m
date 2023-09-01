@@ -101,3 +101,91 @@ carbonMass = 106 - 3 * 16 - 2 * 23
 aluminumMass = 78 - 3 * (16 + 1)
 
 ########################################
+
+# Bromine(-)
+bromine = [35 36]
+
+# Magnesium(2+)
+magnesium = [12 10]
+
+# Taken and donated electrons
+electrons = [-2 1 2 -3]
+
+# Electronegativity difference and electrons
+mgcl2 = 3.16 - 1.31
+electrons = [1 2]
+
+# Ionic bond
+na2o = 3.44 - 0.93
+
+# Ions
+elements = [-1 -2 3 2]
+
+########################################
+
+# Nitrogen (I) - N2O
+# II - Ca, Mg, Be
+# SO3 (VI)
+siSFe =  [4 6 3]
+clSP = [7 4 5]
+mgAlN = [2 3 5]
+naKCa = [1 1 2]
+feZn = [3 2]
+
+########################################
+
+#{
+
+  2Na + Cl2 -> 2NaCl
+  N2 + O2 -> 2NO
+  S + O2 -> SO2
+  2N2O -> 2N2 + O2
+  2HgO -> 2Hg + O2
+  4Na + O2 -> 2Na2O
+  2Ca + O2 -> 2CaO
+  4K + O2 -> 2K2O
+  2Mg + O2 -> 2MgO
+  N2 + 3H2 -> 2NH3
+  2Fe + 3Cl2 -> 2FeCl3
+  4Al + 3O2 -> 2Al2O3
+  2S + 3O2 -> 2SO3
+  2N2 + 5O2 -> 2N2O5
+
+#}
+
+########################################
+
+#{
+
+  N2 + O2 -> 2NO
+  4Na + O2 -> 2Na2O
+  Ca + Cl2 -> CaCl2
+
+  2H2O -> 2H2 + O2
+  2Fe + 3Cl2 -> 2FeCl3
+  3S + 2Al -> Al2S3
+
+  PbO + H2 -> Pb + H2O
+  2K + H2S -> K2S + H2
+  2SO2 + O2 -> 2SO3
+
+  CH4 + 2O2 -> CO2 + 2H2O
+  2N2O -> 2N2 + O2
+  2K + Cl2 -> 2KCl
+
+  P4 + 5O2 -> P4O10
+  H2 + Cl2 -> 2HCl
+  3H2 + N2 -> 2NH3
+
+  2CO + O2 -> 2CO2
+  4Al + 3O2 -> 2Al2O3
+  2CuO + C -> 2Cu + CO2
+
+  Exchange
+  PbO + C -> CO + Pb
+  SnO2 + 2C -> Sn + 2CO
+
+#}
+
+########################################
+
