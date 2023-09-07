@@ -189,3 +189,63 @@ feZn = [3 2]
 
 ########################################
 
+# CuO
+cm = 64; om = 16; tot = cm + om;
+cuPer = cm / tot * 100
+oPer = 100 - cuPer
+
+# Al2O3
+om = 3 * om; alm = 2 * 27; tot = om + alm;
+alPer = alm / tot * 100
+oPer = 100 - alPer
+
+# Higher oxygen percentage
+# K2O < Na2O
+om = 16;
+p1 = om / (2 * 39 + om) * 100
+p2 = om / (2 * 23 + om) * 100
+higher = p2 > p1
+
+# H2O
+mRatio = 2 / 16
+
+# Al2S3
+alm = 2 * 27; sm = 3 * 32; tot = alm + sm;
+alPer = alm / tot * 100, sPer = 100 - alPer
+mRatio = alm / sm
+
+# NO2 (70% oxygen)
+om = 2 * om; oxygen = om / (om + 14) * 100
+
+# H2S
+sm = 32; hm = 2; mratio = hm / sm
+tot = sm + hm;
+hPer = 2 / tot * 100
+sPer = 100 - hPer
+
+########################################
+
+# 2Al + 3S -> Al2S3
+mal2s3 = 10.8 + 19.2
+
+# 2C + O2 -> 2CO
+mc = 8.75 - 5
+
+# 2PbO + C(12) -> 2Pb(414) + O2
+mc = 12 * 10 / 414
+
+# H2 + Cl2 -> 2HCl
+mcl = 360 - 10
+
+# 2HgO(434) -> 2Hg(402) + O2
+mhgo = 5 * 434 / 402
+
+# 3C(36) + 2Fe2O3(320) -> 4Fe + 3CO2
+# Not enough carbon
+cmass = 7 - 80 * 36 / 320
+
+# 2Ca(80) + O2 -> 2CaO(112)
+mcao = 10 * 112 / 80
+
+########################################
+
