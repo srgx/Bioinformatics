@@ -249,3 +249,116 @@ mcao = 10 * 112 / 80
 
 ########################################
 
+# Salt
+tm = 75; sm = 25; wm = tm - sm;
+sol = sm / wm * 100
+
+# CuSO4
+tsm = 20 / 100 * 200; smass = tsm - 30
+
+# Salt & Water
+smass = 70; wmass = 250 - smass;
+sol = smass / wmass * 100
+
+# NaNO3
+# All substance will dissolve
+dff = 92 / 100 * 50 - 40
+
+# CuSO4
+left = 400 - 50 / 100 * 500
+
+# Substance X
+sol = 2.5 / 40 * 100
+
+# Substance and Water
+smass = 25; wmass = 75 - smass;
+sol = smass / wmass * 100
+
+# Solution
+wmass = 250; smass = 30;
+sol = smass / wmass * 100
+
+# KCl
+smass = 102; wmass = 402 - smass;
+skcl = smass / wmass * 100
+
+# KCl & Water
+# Unsaturated solution
+mkcl = 45 / 100 * 250
+
+# CuSO4
+smass = 20 / 100 * 300
+
+# Salt
+ssol = 25 / 250 * 100
+
+# KI
+smass = 30; wmass = 50 - smass;
+ksol = smass / wmass * 100
+
+# Sugar
+smass = 200 / 100 * 500
+
+# Water & Salt
+wmass = 100 / 40 * 90
+
+# Sodium acetate
+smass = 153 - 124
+
+# KCl
+# Not all substance dissolved
+dff = 110 - 34 / 100 * 300
+
+########################################
+
+# Salt mass
+smass = 0.1 * 100 + 0.2 * 100
+
+# Percentage
+per = 20 / 140 * 100
+
+# Nitric acid
+per = 20 / 500 * 100
+
+# Salt
+per = 100 / 2100 * 100
+
+# Sodium hydroxide
+smass = 0.1 * 200
+
+# Water & sodium hydroxide
+smass = 0.25 * 50
+wmass = 50 - smass
+
+# Sugar
+wmass = 5 / 10 * 90
+
+# Salt percentage
+per = 40 / 500 * 100
+
+# Water
+wmass = 0.8 * 2000
+
+# Substance & Water
+tmass = 5 / 20 * 100;
+wmass = tmass - 5
+
+# Substance percentage
+per = 20 / 320 * 100
+
+# Sea water
+smass = 0.03 * 20
+
+# Cucumbers
+tmass = 3000;
+smass = 0.04 * tmass
+wmass = tmass - smass
+
+# Sodium hydroxide solution
+smass = 0.1 * 200
+
+# Sodium chloride
+smass = 0.05 * 400
+
+########################################
+
