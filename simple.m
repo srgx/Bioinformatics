@@ -362,3 +362,136 @@ smass = 0.05 * 400
 
 ########################################
 
+#{
+
+  Hydrogen cations Ca(2+) and hydroxide anions OH(-)
+
+  Hydroxyl group (I)
+
+  Metals (II) (III) (I)
+
+  Magnesium hydroxide
+  Copper h.e (II)
+  Iron h.e (III)
+
+  Aluminum/Calcium/Sodium hydroxide
+
+  NaOH
+  Fe(OH)3
+  Cu(OH)2
+
+  Ca(OH)2
+  Mg(OH)2
+  Al(OH)3
+
+  Ba(OH)2
+  LiOH
+  Pb(OH)2
+
+#}
+
+########################################
+
+#{
+
+  Na2O + H2O -> 2NaOH
+  2Na + 2H2O -> 2NaOH + H2
+
+  Ca + 2H2O -> Ca(OH)2 + H2
+
+  CaO MgO Na2O
+
+  NaOH - pipes
+  Ca(OH)2 - construction
+  KOH - soap
+
+  Hygroscopic and corrosive
+
+  CaO + H2O -> Ca(OH)2
+  Calcium hydroxide
+  Limewater & Carbon dioxide
+
+  Blue Raspberry Yellow
+
+  2Na + 2H2O -> 2NaOH + H2
+  Low density
+  Raspberry Alkaline
+
+  Heat in exothermic process
+
+  4Na + O2 -> 2Na2O
+  Na2O + H2O -> 2NaOH
+
+  2K + 2H2O -> 2KOH + H2
+
+  2Na + 2H2O -> 2NaOH + H2
+  Na2O + H2O -> 2NaOH
+  Ca + 2H2O -> Ca(OH)2 + H2
+
+  CaO + H2O -> Ca(OH)2
+  Phenolphthalein
+
+  CuCl2
+  2NaOH + CuCl2 -> Cu(OH)2 + 2NaCl
+
+  3KOH + AlCl3 -> 3KCl + Al(OH)3
+
+  Blue
+  Methyl orange
+
+  Ca + 2H2O -> Ca(OH)2 + H2
+  CaO + H2O -> Ca(OH)2
+
+  2Li + 2H2O -> 2LiOH + H2
+  Sr + 2H2O -> Sr(OH)2 + H2
+
+  MgO + H2O -> Mg(OH)2
+
+  2Na + 2H2O -> 2NaOH + H2
+  Na2O + H2O -> 2NaOH
+
+#}
+
+########################################
+
+#{
+
+  NaOH -> Na(+) + OH(-)
+  Ca(OH)2 -> Ca(2+) + 2OH(-)
+  Ba(OH)2 -> Ba(2+) + 2OH(-)
+
+  Hydroxide anion
+  Calcium cation
+  Potassium c.
+
+  KOH & Ca(OH)2
+
+  LiOH -> Li(+) + OH(-)
+  Ca(OH)2 -> Ca(2+) + 2OH(-)
+
+  Monopositive cation
+  Mononegative anion
+
+  Aqueous solution conducts electricity
+
+  Barium Ba(2+) Hydroxide 2OH(-)
+
+  Alkaline solution with excess of OH- ions and pH greater than 7
+
+#}
+
+########################################
+
+# Potassium hydroxide mass
+phmass = 0.25 * 300
+
+# Calcium oxide mass
+# CaO (56) + H2O -> Ca(OH)2 (74)
+comass = 56 * 150 / 74
+
+# Percentage of magnesium in magnesium hydroxide - Mg(OH)2
+mmass = 24; tmass = mmass + 2 * (16 + 1);
+pmass = mmass / tmass * 100
+
+########################################
+
