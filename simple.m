@@ -495,3 +495,275 @@ pmass = mmass / tmass * 100
 
 ########################################
 
+#{
+
+  H2CO3 (II)
+
+  HNO3 (I) (V) (II)
+
+  H2SO3 (II)
+
+  H3PO4 (III)
+
+  H2SO4 (II)
+
+  Sulfuric acid (IV) (Sulfurous acid)
+
+  ^ line 2
+
+  Hydrochloric acid - HCl
+
+  H2S
+
+#}
+
+########################################
+
+#{
+
+  SO3 + H2O -> H2SO4
+  P4O10 + 6H2O -> 4H3PO4
+
+  C + O2 -> CO2
+  CO2 + H2O -> H2CO3
+
+  H2CO3 -> CO2 + H2O
+
+  Hygroscopic
+
+  P4O10 + 6H2O -> 4H3PO4
+
+  ^ line 2.2
+
+  SO3 + H2O -> H2SO4
+
+  1B - Mass increased (hygroscopic)
+
+  N2O5 + H2O -> 2HNO3
+
+  2HCl + FeS -> H2S + FeCl2
+
+  Synthesis reaction
+  H2 + Cl2 -> 2HCl
+
+  Hydrosulfuric acid
+
+#}
+
+########################################
+
+#{
+
+  Xanthoprotein reaction - yellow tint
+
+  H2SO3 -> SO2 + H2O
+
+  FeS + 2HCl-> FeCl2 + H2S
+
+#}
+
+# Mass percentage - H2S
+pmass = 32 / 34 * 100
+
+#{
+
+  Mass ratio in H2S - mH:mS = 1:16
+
+  Sulfur & Hydrogen
+  S + H2 -> H2S
+
+  2N2 + 5O2 -> 2N2O5
+  N2O5 + H2O -> 2HNO3
+
+  H2 + Cl2 -> 2HCl
+
+#}
+
+# Mass H3PO4
+mass = 3 + 31 + 4 * 16
+
+#{
+
+  CO2 + H2O -> H2CO3
+
+  SO2 + H2O -> H2SO3
+
+  S + O2 -> SO2
+  2SO2 + O2 -> 2SO3
+  SO3 + H2O -> H2SO4
+  A - S
+  B - SO2
+  C - SO3
+  D - H2O
+
+#}
+
+########################################
+
+#{
+
+  Hydrochloric acid
+
+  S + O2 -> SO2
+  SO2 + H2O -> H2SO3
+
+  ^ line 2.1
+  2SO2 + O2 -> 2SO3
+  SO3 + H2O -> H2SO4
+
+#}
+
+# H2 + Cl2(70) -> 2HCl (72)
+mass = 72 / 70 * 5
+
+#{
+
+  Unstable acid decomposes into water and carbon dioxide
+
+  ^ line 3.2
+
+  H2SO3 -> SO2 + H2O
+
+  6H2O + P4O10 -> 4H3PO4
+
+  ^ line 2.2
+
+  N2O5 + H2O -> 2HNO3
+
+  ^ line 2.1
+  ^ line 2.2
+
+  Colorless & 2 * Red
+
+#}
+
+########################################
+
+#{
+
+  Hydrogen cation and sulfate anion (IV)
+  H2SO3 -> 2H(+) + SO3(2-)
+
+  H. c. and nitrate a. (V)
+  HNO3 -> H(+) + NO3(-)
+
+  H. c. and sulfide a.
+  H2S -> 2H(+) + S(2-)
+
+  H. c. and phosphate a. (V)
+  H3PO4 -> 3H(+) + PO4(3-)
+
+  H. c. and sulfate a. (VI)
+  H2SO4 -> 2H(+) + SO4(2-)
+
+  H. c. and carbonate a.
+  H2CO3 -> 2H(+) + CO3(2-)
+
+#}
+
+########################################
+
+#{
+
+  HCl -> H(+) + Cl(-)
+
+  H2SO4 & HNO3
+
+  H2S -> 2H(+) + S(2-)
+
+  H3PO4 -> 3H(+) + PO4(3-)
+
+  H2SO3 -> 2H(+) + SO3(2-)
+
+  H(+) & SO4(2-) & Cl(-)
+
+  Cations & Anions
+
+  Unstable & Carbon Dioxide
+
+  HNO3 -> H(+) + NO3(-)
+
+#}
+
+########################################
+
+#{
+
+  CaO + H2SO4 -> CaSO4 + H2O
+
+  MgO + 2HNO3 -> Mg(NO3)2 + H2O
+
+  2Mg + O2 -> 2MgO
+  ^ line 2
+
+  H2S + K2O -> K2S + H2O
+
+#}
+
+########################################
+
+#{
+
+  Fe + 2HNO3 -> Fe(NO3)2 + H2
+
+  Sn + 2HCl -> SnCl2 + H2
+
+  Fe + H2SO4 -> FeSO4 + H2
+
+  3Ca + 2H3PO4 -> Ca3(PO4)2 + 3H2
+
+  2Na + H2SO4 -> Na2SO4 + H2
+
+  2Na + 2HNO3 -> 2NaNO3 + H2
+
+  2Al + 6HCl -> 2AlCl3 + 3H2
+
+  Mg + 2HCl -> MgCl2 + H2
+
+  2Na + 2HCl -> 2NaCl + H2
+
+#}
+
+########################################
+
+#{
+
+  2HCl + Ca(OH)2 -> CaCl2 + 2H2O
+  2H(+) + 2Cl(-) + Ca(2+) + 2OH(-) -> Ca(2+) + 2Cl(-) + 2H2O
+  H(+) + OH(-) -> H2O
+
+  H2SO3 + 2KOH -> K2SO3 + 2H2O
+  2H(+) + SO3(2-) + 2K(+) + 2OH(-) -> 2K(+) + SO3(2-) + 2H2O
+  ^ line 1.3
+
+  H2S + 2KOH -> K2S + 2H2O
+  2H(+) + S(2-) + 2K(+) + 2OH(-) -> 2K(+) + S(2-) + 2H2O
+  ^
+
+  H3PO4 + 3NaOH -> Na3PO4 + 3H2O
+  3H(+) + PO4(3-) + 3Na(+) + 3OH(-) -> 3Na(+) + PO4(3-) + 3H2O
+  ^
+
+  H2CO3 + 2KOH -> K2CO3 + 2H2O
+  2H(+) + CO3(2-) + 2K(+) + 2OH(-) -> 2K(+) + CO3(2-) + 2H2O
+  ^
+
+  H2SO4 + 2KOH -> K2SO4 + 2H2O
+  2H(+) + SO4(2-) + 2K(+) + 2OH(-) -> 2K(+) + SO4(2-) + 2H2O
+  ^
+
+  HCl + KOH -> KCl + H2O
+  H(+) + Cl(-) + K(+) + OH(-) -> K(+) + Cl(-) + H2O
+  ^
+
+  HNO3 + LiOH -> LiNO3 + H2O
+  H(+) + NO3(-) + Li(+) + OH(-) -> Li(+) + NO3(-) + H2O
+  ^
+
+  2NaOH + H2SO4 -> Na2SO4 + 2H2O
+  2Na(+) + 2OH(-) + 2H(+) + SO4(2-) -> 2Na(+) + SO4(2-) + 2H2O
+
+#}
+
+########################################
+
