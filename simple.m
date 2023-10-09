@@ -1,6 +1,10 @@
 
 ########################################
 
+# Chemistry
+
+########################################
+
 # Iron
 d = 7.9; v = 15; m = d * v
 
@@ -762,6 +766,195 @@ mass = 72 / 70 * 5
 
   2NaOH + H2SO4 -> Na2SO4 + 2H2O
   2Na(+) + 2OH(-) + 2H(+) + SO4(2-) -> 2Na(+) + SO4(2-) + 2H2O
+
+#}
+
+########################################
+
+# C4H8
+
+# C2H6
+mass = 2 * 12 + 6
+# C : H = 24 : 6 = 4 : 1
+
+# C6H12 & C4H8 & C5H10
+
+# C4H10
+cmass = 4 * 12; tmass = cmass + 10;
+pmass = cmass / tmass * 100
+
+# Butane - C4H10
+
+# 2C4H10 + 13O2 -> 8CO2 + 10H2O
+# 2C4H10 + 9O2 -> 8CO + 10H2O
+# 2C4H10 + 5O2 -> 8C + 10H2O
+
+# Saturated - C2H6 & CH4
+# Unsaturated - C2H4 & C2H2
+
+# Ethane Methane Ethene Ethyne
+
+# C2H4 + Br2 -> CH2Br-CH2Br
+
+# C2H4 + 3O2 -> 2CO2 + 2H2O
+
+########################################
+
+#{
+
+  CH2=CH2 + HCl -> CH3-CH2Cl
+  Chloroethane
+
+  2C4H10 + 13O2 -> 8CO2 + 10H2O
+  CO2 & CO & C
+
+  CH|||C-CH3 + H2 -> CH2=CH-CH3
+  CH2=CH-CH3 + Br2 -> CH3-CHBr-CH2Br
+
+  C4H8
+  CH2=CH-CH2-CH3
+  Butene
+  Unsaturated & Double Bond
+
+  CH3-CH2-CH2-CH2-CH3
+  Pentane
+
+#}
+
+########################################
+
+#{
+
+  C3H5(OH)3
+  Propane-1,2,3-triol
+
+  2CH3OH + 3O2 -> 2CO2 + 4H2O
+  CH3OH + O2 -> CO + 2H2O
+  2CH3OH + O2 -> 2C + 4H2O
+
+  CH3-CH2-CH2-CH2-CH2-OH (pentanol)
+  CH3-CH2-CH2-CH2-OH (butanol)
+
+  CH3-CH2-OH (ethanol)
+
+  C5H11OH
+  ^ line 3.1
+
+  2C3H7OH + 9O2 -> 6CO2 + 8H2O
+  C3H7OH + 3O2 -> 3CO + 4H2O
+  2C3H7OH + 3O2 -> 6C + 8H2O
+
+  C3H5(OH)3
+  C : H : O = 36 : 8 : 48 = 9 : 2 : 12
+
+#}
+
+########################################
+
+cm = 6 * 12; tm = cm + 12 + 2 * 16;
+pm = cm / tm * 100
+
+#{
+
+  2CH3COOH + CuO -> (CH3COO)2Cu + H2O
+  Copper ethanoate (II)
+
+  CH3COOH + NaOH -> CH3COONa + H2O
+  H(+) + CH3COO(-) + Na(+) + OH(-) -> CH3COO(-) + Na(+) + H2O
+  H(+) + OH(-) -> H2O
+
+  CH3COOH -> H(+) + CH3COO(-)
+  Ethanoate anion
+
+  6HCOOH + Al2O3 -> 2(HCOO)3Al + 3H2O
+  Methanoic acid
+
+  CH3COOH
+  C : H : O = 24 : 4 : 32 = 6 : 1 : 8
+
+  2Na(46) + 2CH3COOH -> 2CH3COONa(164) + H2
+  46 - 164
+
+  CH3COOH -> H(+) + CH3COO(-)
+
+  2HCOOH + 2Na -> 2HCOONa + H2
+
+  Magnesium butanoate + Hydrogen
+
+  C3H7COOH + O2 -> 4C + 4H2O
+
+#}
+
+# C3H7COOH
+cmass = 4 * 12;
+tmass = 2 * 16 + cmass + 8
+pmass = cmass / tmass * 100
+
+#{
+
+  Acid, dissociation and H(+) ions
+  HCOOH -> H(+) + HCOO(-)
+
+  Colorless liquid doesn't dissolve in water
+  No dissociation or red color
+
+  CH3COOH -> CH3COO(-) + H(+)
+
+  C8H17COOH
+  C9H19COOH
+
+  116 - 15(CH3) - 45(COOH) = 56
+  56 / 14(CH2) = 4 (* CH2)
+  CH3CH2CH2CH2CH2COOH = C5H11COOH
+
+  Solution discoloration
+  KOH + CH3COOH -> CH3COOK + H2O
+  Acetic acid
+
+  2CH3COOH + 2Na -> 2CH3COONa + H2
+  Sodium ethanoate
+
+#}
+
+# CHOOH(46) + O2 -> CO2(44) + H2O
+mass = 44 * 10 / 46
+
+#{
+
+  2CH3COOH + Mg -> (CH3COO)2Mg + H2
+  (CH3COO)2Mg -> 2CH3COO(-) + Mg(2+)
+
+  2C2H5COOH + 7O2 -> 6CO2 + 6H2O
+
+#}
+
+########################################
+
+#{
+
+  Ethyl acetate
+  CH3COOH + C2H5OH -> CH3COOC2H5 + H2O
+
+  Methyl formate
+  HCOOH + CH3OH -> HCOOCH3 + H2O
+
+  Ethanol & Water
+
+  Acetic acid & ethanol
+
+#}
+
+########################################
+
+#{
+
+  Starch & Cellulose
+
+  Glucose
+
+  Dark blue color - starch
+
+  (C6H10O5)n + nH2O (enzymes + HCl)-> C6H12O6
 
 #}
 
